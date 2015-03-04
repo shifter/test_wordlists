@@ -118,7 +118,8 @@ wordlists = [
   "wordlist_portuguese.txt",
   "wordlist_spanish.txt",
   ["wordlist_japanese.txt", {"replace_irregular_chars" => false}],
-  "wordlist_german.txt"
+  "wordlist_german.txt",
+  "wordlist_italian.txt",
 ]
 
 wordlists.each do | wordlist |
