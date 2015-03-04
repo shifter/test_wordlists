@@ -1,6 +1,7 @@
 #!/usr/bin/env ruby
 
 
+EXPECTED_SIZE = 1626
 DATA_DIR = "data"
 
 def normalize_string!(str)
@@ -15,7 +16,7 @@ end
 def check_normal(str)
   str.chars.each do | x |
     if x !~ /[a-zA-Z]/
-      puts "WARNING: not a regular alphabetic character: " + x
+      puts "WARNING: not a regular alphabetic character: #{x} in #{str}"
     end
   end
 end
@@ -24,6 +25,10 @@ def check_words(words, prefix_length, replace_irregular_chars)
   h = {}
   words.each do | word |
     prefix = word[0, prefix_length]
+    if prefix.size < prefix_length
+      puts "NOTE: word size for #{word} is < prefix length #{prefix_length}"
+    end
+    prefix.downcase!
 
     if replace_irregular_chars
       normalize_string!(prefix) 
@@ -92,6 +97,9 @@ def validate(wordlist)
   words.map! {|x| x.gsub(/[",]/, '')}
 
   puts "Total words: #{words.size}"
+  if words.size != EXPECTED_SIZE
+    warn "WARNING: wordlist size is #{words.size} instead of expected #{EXPECTED_SIZE} words"
+  end
 
   check_words(words, prefix_length, replace_irregular_chars)
 end
