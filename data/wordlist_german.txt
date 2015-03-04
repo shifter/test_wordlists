@@ -1,5 +1,6 @@
 # unique_prefix_length = 4
 
+Abakus
 Abart
 abbilden
 Abbruch
@@ -30,7 +31,6 @@ Abstand
 absuchen
 Abteil
 Abundanz
-Abwärme
 abwarten
 Abwurf
 Abzug
@@ -73,8 +73,8 @@ Altbier
 Alter
 Altflöte
 Altruist
-Aludose
 Alublech
+Aludose
 Amateur
 Amazonas
 Ameise
@@ -176,7 +176,6 @@ Badesee
 Bahnhof
 Balance
 Balkon
-Ballade
 Ballett
 Balsam
 Banane
@@ -214,7 +213,6 @@ befinden
 Befreier
 Begabung
 Begierde
-Begriff
 begrüßen
 Beiboot
 Beichte
@@ -338,7 +336,6 @@ Cartoon
 Cello
 Chalet
 Charisma
-Charter
 Chefarzt
 Chiffon
 Chipsatz
@@ -451,7 +448,6 @@ Eidechse
 Eidotter
 Eierkopf
 Eigelb
-Eigenart
 Eiland
 Eilbote
 Eimer
@@ -506,7 +502,6 @@ erblühen
 Erdbeere
 Erde
 Erdgas
-Erdgase
 Erdkunde
 Erdnuss
 Erdöl
@@ -631,14 +626,11 @@ Fixpunkt
 Fixstern
 Fjord
 Flachbau
-Fläche
-flackern
 Flagge
 Flamenco
 Flanke
 Flasche
 Flaute
-flechten
 Fleck
 Flegel
 flehen
@@ -723,7 +715,6 @@ Gedanke
 Gedeck
 Gedicht
 Gefahr
-Gefäß
 Gefieder
 Geflügel
 Gefühl
@@ -744,11 +735,9 @@ genesen
 Genuss
 Gepäck
 Geranie
-Gerät
 Gericht
 Germane
 Geruch
-Gerüst
 Gesang
 Geschenk
 Gesetz
@@ -935,7 +924,6 @@ Kaimauer
 Kajüte
 Kaktus
 Kaliber
-Kälte
 Kaltluft
 Kamel
 kämmen
@@ -982,7 +970,6 @@ Klapprad
 Klartext
 kleben
 Klee
-Kleider
 Kleinod
 Klima
 Klingel
@@ -1053,7 +1040,6 @@ Laune
 Lausbub
 Lavasee
 Leben
-Leberkäs
 Leder
 Leerlauf
 Lehm
@@ -1074,12 +1060,15 @@ Liftboy
 Limonade
 Lineal
 Linoleum
+List
 Liveband
 Lobrede
 locken
 Löffel
 Logbuch
+Logik
 Lohn
+Loipe
 Lokal
 Lorbeer
 Lösung
@@ -1112,7 +1101,6 @@ Marathon
 Marder
 Marine
 Marke
-Markttag
 Marmor
 Märzluft
 Maske
@@ -1130,7 +1118,6 @@ Meinung
 melden
 Melodie
 Mensch
-Menschen
 Merkmal
 Messe
 Metall
@@ -1283,7 +1270,6 @@ Piste
 Plakat
 Plankton
 Platin
-Plattfuß
 Plombe
 plündern
 Pobacke
@@ -1302,15 +1288,22 @@ Prinzip
 Protest
 Proviant
 Prüfung
+Pubertät
 Pudding
 Pullover
+Pulsader
 Punkt
 Pute
+Putsch
+Puzzle
+Python
 quaken
 Qualle
 Quark
 Quellsee
 Querkopf
+Quitte
+Quote
 Rabauke
 Rache
 Radclub
@@ -1329,7 +1322,6 @@ Rätsel
 Raubtier
 Raumzeit
 Rausch
-räuspern
 Reaktor
 Realität
 Rebell
@@ -1339,6 +1331,7 @@ Regatta
 Regen
 Rehkitz
 Reifen
+Reim
 Reise
 Reizung
 Rekord
@@ -1357,19 +1350,26 @@ Rindvieh
 Rippchen
 Ritter
 Robbe
+Roboter
 Rockband
 Rohdaten
 Roller
+Roman
 röntgen
 Rose
+Rosskur
 Rost
 Rotahorn
 Rotglut
 Rotznase
+Rubrik
 Rückweg
 Rufmord
 Ruhe
+Ruine
+Rumpf
 Runde
+Rüstung
 rütteln
 Saaltür
 Saatguts
@@ -1377,7 +1377,6 @@ Säbel
 Sachbuch
 Sack
 Saft
-Sägemehl
 sagen
 Sahneeis
 Salat
@@ -1389,13 +1388,12 @@ Sandbank
 Sanftmut
 Sardine
 Satire
+Sattel
 Satzbau
 Sauerei
 Saum
 Säure
-schäkern
 Schall
-Schanze
 Scheitel
 Schiff
 Schlager
@@ -1464,12 +1462,14 @@ Taktung
 Talsohle
 Tand
 Tanzbär
+Tapir
 Tarantel
 Tarnname
 Tasse
 Tatnacht
 Tatsache
 Tatze
+Taube
 tauchen
 Taufpate
 Taumel
