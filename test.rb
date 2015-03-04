@@ -5,12 +5,19 @@ EXPECTED_SIZE = 1626
 DATA_DIR = "data"
 
 def normalize_string!(str)
+  # Spanish
   str.sub!(/á/, "a")
   str.sub!(/é/, "e")
   str.sub!(/í/, "i")
   str.sub!(/ó/, "o")
   str.sub!(/ú/, "u")
   str.sub!(/ñ/, "n")
+
+  # German
+  str.sub!(/[äÄ]/, "a")
+  str.sub!(/[öÖ]/, "o")
+  str.sub!(/[üÜ]/, "u")
+  # ß is distinct enough, leave alone?
 end
 
 def check_normal(str)
@@ -110,7 +117,8 @@ wordlists = [
   # "wordlist_old_english.txt",
   "wordlist_portuguese.txt",
   "wordlist_spanish.txt",
-  ["wordlist_japanese.txt", {"replace_irregular_chars" => false}]
+  ["wordlist_japanese.txt", {"replace_irregular_chars" => false}],
+  "wordlist_german.txt"
 ]
 
 wordlists.each do | wordlist |
